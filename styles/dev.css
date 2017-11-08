@@ -1,0 +1,27 @@
+/*style changes*/
+
+/*blue buttons*/
+.btn-primary, .form-actions input.form-submit, .form-actions input.form-reset, #xpo-tracking-form .form-type-radio.selected, .xpo-office-locator-exposed-filters #edit-submit-location {
+  border-color: #007acc!important;
+  background-color: #00b7cc!important;
+}
+
+.btn-primary:hover, .form-actions input.form-submit:hover, .form-actions input.form-reset:hover, #xpo-tracking-form .form-type-radio.selected:hover, .xpo-office-locator-exposed-filters #edit-submit-location:hover {
+  background-color: #0a1654!important;
+  top: inherit!important;
+} 
+
+/*blue stripe home results matter*/
+.hero.hero-home h1:after {
+  background: #02b7cd!important;
+}
+
+/*black active button*/
+.page-home .we-provide-block .quicktabs-tabs li.active a {
+  color: #000000!important;
+}
+
+/*teasers are now blue*/
+.tag-label, .news-block.w1 .featured-new-cat, .page-news .news-block .featured-new-cat {
+  background-color: #02b7cd!important;
+}
