@@ -1,6 +1,13 @@
 /*scripts*/
 
-$( document ).ready(function() {
-  //alert("dot com dev activated");
+if (localStorage.theme == "on"){
+
+  $( document ).ready(function() {
+    //alert("dot com dev activated");
+    
+  });
   
-});
+}
+
+
+

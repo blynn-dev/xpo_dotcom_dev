@@ -5,7 +5,7 @@
   "description": "The official XPO.Dot.Com Developer Extension",
   "content_scripts": [{
     "matches": ["http://*.xpo.com/*"],
-    "js": ["scripts/jquery.min.js","scripts/dev.js"],
+    "js": ["scripts/jquery.min.js","scripts/selection.js","scripts/dev.js"],
     "css": ["styles/dev.css"]
   }],
   "permissions": ["contentSettings", "tabs", "http://*.xpo.com/*"],

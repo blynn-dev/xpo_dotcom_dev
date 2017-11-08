@@ -7,8 +7,35 @@ Version 1.0
 Written by Bryan Lynn 2017
 -->
 
+<style>
+    body{
+        width: 200px;
+        height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h2{
+        font-weight: bold;
+    }
+    .target{
+        position: absolute;
+        bottom:0px;
+        left:0px;
+        padding: 10px;
+        color:steelblue;
+        text-decoration: none;
+    }
+</style>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/selection.js"></script>
 </head>
 <body>
-Dev area for xpo.com
+<h2>Dev area for xpo.com</h2>
+
+<select id="selection">	
+    <option value="off">Development - Off</option>
+    <option value="on">Custom Theme - On</option>
+</select>
+
+<a class="target" href="http://www.xpo.com" target="_blank">Link to XPO.com</a>
 </body>
 </html>
